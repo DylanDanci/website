@@ -1275,6 +1275,9 @@ div.photo p, h2, a{
 }
 
 @media screen and (max-width: 360px) {
+     p.works{
+    display: none!important;
+  }
   .big{
     font-size: 20px!important;
   }
