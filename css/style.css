@@ -1148,6 +1148,7 @@ div.photo p, h2, a{
   }
   div.works{
     height: 1210px;
+    background-color: yellow;
   }
   .works p.works{
     left: 0px;
@@ -1181,7 +1182,6 @@ div.photo p, h2, a{
   }
   div.contacts{
     height: 720px;
-      background-color: yellow;
   }
 }
 
