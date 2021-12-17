@@ -1024,6 +1024,9 @@ div.photo p, h2, a{
   }
 }
 @media screen and (max-width: 540px) {
+    div.contatcts{
+     background-color: red;   
+    }
     div.aboutme{
       height: 640px;
     }
@@ -1221,7 +1224,6 @@ div.photo p, h2, a{
   }
   footer{
     text-align: center!important;
-    backgound-color: red;
   }
 }
 
