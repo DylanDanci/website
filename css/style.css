@@ -1332,9 +1332,6 @@ div.photo p, h2, a{
 }
 
 @media screen and (max-width: 350px) {
-         p.works{
-    display: none!important;
-  }
   .myNavbar .me, .fa{
     font-size: 20px!important;
   }
@@ -1379,6 +1376,9 @@ div.photo p, h2, a{
 }
 
 @media screen and (max-width: 280px) {
+  p.works{
+    display: none!important;
+  }
   .bio td, td.anno{
     font-size: 13px!important;
   }
