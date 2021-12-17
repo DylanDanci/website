@@ -1182,10 +1182,6 @@ div.photo p, h2, a{
   div.contacts{
     height: 720px;
   }
-  p.works{
-      background-color: red;
-      display: none!important;
-  }
 }
 
 @media screen and (max-width: 414px) {
