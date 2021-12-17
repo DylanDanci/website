@@ -957,7 +957,6 @@ div.works{
 }
 div.contacts{
   top: -50px;
-    background-color: red;
 }
 div.photo p, h2, a{
   color: white!important;
@@ -1196,7 +1195,7 @@ div.photo p, h2, a{
     height: 620px;
   }
   div.contacts{
-    /* background-color: yellow; */
+     background-color: yellow; 
     height: 250px;
   }
   div.contactsWrite{
