@@ -957,6 +957,7 @@ div.works{
 }
 div.contacts{
   top: -50px;
+    background-color: red;
 }
 div.photo p, h2, a{
   color: white!important;
