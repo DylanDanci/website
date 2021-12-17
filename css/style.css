@@ -1261,6 +1261,7 @@ div.photo p, h2, a{
   }
   div.contacts{
     height: 270px!important;
+      backgound-color: red;
   }
   footer{
     text-align: left!important;
@@ -1308,7 +1309,6 @@ div.photo p, h2, a{
   }
   div.works{
     height: 1080px;
-      background-color: red;
   }
   .button{
     left: 27%!important;
@@ -1324,7 +1324,6 @@ div.photo p, h2, a{
   }
   div.contacts{
     height: 300px!important;
-      background-color: yellow;
   }
   button.sunOrMoon{
     top: 2px;
