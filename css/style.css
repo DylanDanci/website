@@ -1024,9 +1024,6 @@ div.photo p, h2, a{
   }
 }
 @media screen and (max-width: 540px) {
-    div.contacts{
-     background-color: red;   
-    }
     div.aboutme{
       height: 640px;
     }
@@ -1150,7 +1147,7 @@ div.photo p, h2, a{
     opacity: 100%;
   }
   div.works{
-    height: 1210px;
+    height: 1230px;
   }
   .works p.works{
     left: 0px;
