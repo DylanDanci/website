@@ -1469,5 +1469,12 @@ div.photo p, h2, a{
   button.sunOrMoon{
     top: 0px;
   }
-
+  @media screen and (max-width: 240px) {
+    div.works{
+      top: 70px;
+    }
+    div.contacts p{
+      font-size: 12px!important;
+    }
+  }
 }
