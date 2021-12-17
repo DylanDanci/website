@@ -1032,7 +1032,7 @@ div.photo p, h2, a{
       text-align: center;
     }
     div.contactsLink p{
-      font-size: large;
+      font-size: large!important;
     }
     div.bio{
       left: 0px;
