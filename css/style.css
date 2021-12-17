@@ -1482,7 +1482,7 @@ div.photo p, h2, a{
   }
      @media only screen and (-webkit-min-device-pixel-ratio: 4) {
     p.works{
-      display: none;
+      display: none!important;;
     }
   }
 }
