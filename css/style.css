@@ -1025,7 +1025,7 @@ div.photo p, h2, a{
 }
 @media screen and (max-width: 540px) {
     div.aboutme{
-      height: 800px;
+      height: 640px;
         background-color: red;
     }
     .aboutmeLeft p.big{
@@ -1309,7 +1309,7 @@ div.photo p, h2, a{
     top: -20px;
   }
   div.works{
-    height: 1080px;
+    height: 1180px;
   }
   .button{
     left: 27%!important;
