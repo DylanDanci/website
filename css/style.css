@@ -1480,9 +1480,4 @@ div.photo p, h2, a{
       font-size: 12px!important;
     }
   }
-     @media only screen and (-webkit-min-device-pixel-ratio: 4) {
-    p.works{
-      display: none!important;;
-    }
-  }
 }
