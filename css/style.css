@@ -1183,7 +1183,7 @@ div.photo p, h2, a{
     height: 720px;
   }
   p.works{
-      display: none;
+      background-color: red;
   }
 }
 
