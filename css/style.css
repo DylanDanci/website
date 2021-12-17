@@ -1147,7 +1147,7 @@ div.photo p, h2, a{
     opacity: 100%;
   }
   div.works{
-    height: 1230px;
+    height: 1210px;
   }
   .works p.works{
     left: 0px;
@@ -1181,6 +1181,9 @@ div.photo p, h2, a{
   }
   div.contacts{
     height: 720px;
+  }
+  p.works{
+      display: none;
   }
 }
 
