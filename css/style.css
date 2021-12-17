@@ -1373,11 +1373,17 @@ div.photo p, h2, a{
 }
 
 @media screen and (max-width: 300px) {
+  div.works{
     height: 950px!important;
-    div.works{
-     top: 0px!important;   
-    }
+  }
+  div.contacts{
+    top: 0px;
+  }
+  .works p{
+    top: 10px!important;
+  }
 }
+
 @media screen and (max-width: 280px) {
   .bio td, td.anno{
     font-size: 13px!important;
