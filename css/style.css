@@ -1221,7 +1221,7 @@ div.photo p, h2, a{
   }
   footer{
     text-align: center!important;
-    backgound-color: red!important;
+    backgound-color: red;
   }
 }
 
