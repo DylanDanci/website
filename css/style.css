@@ -1261,7 +1261,7 @@ div.photo p, h2, a{
   }
   div.contacts{
     height: 270px!important;
-      backgound-color: red;
+      backgound-color: red!important;
   }
   footer{
     text-align: left!important;
