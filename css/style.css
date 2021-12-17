@@ -1343,6 +1343,9 @@ div.photo p, h2, a{
   img.DarkOrLight{
     display: none!important;
   }
+    div.works{
+    height: 1080px;
+  }
 }
 
 @media screen and (max-width: 320px) {
