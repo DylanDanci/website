@@ -1025,7 +1025,7 @@ div.photo p, h2, a{
 }
 @media screen and (max-width: 540px) {
     div.aboutme{
-      height: 700px;
+      height: 800px;
         background-color: red;
     }
     .aboutmeLeft p.big{
