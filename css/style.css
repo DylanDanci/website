@@ -1024,7 +1024,7 @@ div.photo p, h2, a{
   }
 }
 @media screen and (max-width: 540px) {
-    div.contatcts{
+    div.contacts{
      background-color: red;   
     }
     div.aboutme{
