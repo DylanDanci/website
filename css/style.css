@@ -1184,6 +1184,7 @@ div.photo p, h2, a{
   }
   p.works{
       background-color: red;
+      display: none!important;
   }
 }
 
