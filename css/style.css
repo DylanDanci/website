@@ -1376,9 +1376,6 @@ div.photo p, h2, a{
 }
 
 @media screen and (max-width: 280px) {
-  p.works{
-    display: none!important;
-  }
   .bio td, td.anno{
     font-size: 13px!important;
   }
