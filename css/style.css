@@ -828,6 +828,9 @@ img.DarkOrLight{
 https://drive.google.com/uc?export=download&id=1dEFcPE7ow52jtkcNXz9XqZQBkjPVVgN7 */
 
 @media screen and (max-width: 1024px) {
+    .contacts p{
+    font-size: 1px!important;
+    }
   .aboutmeRight{
     width: 0%;
     display: none;
