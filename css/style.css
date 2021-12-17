@@ -1195,7 +1195,6 @@ div.photo p, h2, a{
     height: 620px;
   }
   div.contacts{
-     background-color: yellow; 
     height: 250px;
   }
   div.contactsWrite{
@@ -1325,6 +1324,7 @@ div.photo p, h2, a{
   }
   div.contacts{
     height: 300px!important;
+      background-color: yellow;
   }
   button.sunOrMoon{
     top: 2px;
