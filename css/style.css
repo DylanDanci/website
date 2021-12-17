@@ -1221,6 +1221,7 @@ div.photo p, h2, a{
   }
   footer{
     text-align: center!important;
+    backgound-color: red!important;
   }
 }
 
@@ -1233,7 +1234,6 @@ div.photo p, h2, a{
   }
   div.contacts{
     height: 340px;
-    backgound-color: red!important;
   }
   footer{
     text-align: left;
