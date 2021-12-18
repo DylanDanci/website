@@ -250,11 +250,14 @@ function unshowaMinecraft(){
 
 function myFunction() {
   var x = document.getElementById("myNavbar");
+  var y = document.getElementById("moon");
   if (x.className === "myNavbar") {
     x.className += " responsive";
     x.className += " cell";
+    y.style.display = "none";
   } else {
     x.className = "myNavbar";
+    y.style.display = "block";
   }
 }
 
