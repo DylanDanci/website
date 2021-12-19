@@ -156,7 +156,6 @@ div.aboutme{
     border-color: rgba(194, 196, 195, 0.356);
     border-width: 1px;
     top: 2px;
-    background-color: red; 
 
 }
 
@@ -189,7 +188,6 @@ div.aboutmeRight{
   width: 60%;
   float: right;
   height: 100%;
-  background: red;
 }
 
 .aboutmeLeft p.big{
