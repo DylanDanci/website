@@ -186,10 +186,9 @@ div.aboutmeLeft{
 
 div.aboutmeRight{
   position: relative;
-    width: 60%;
-    float: right;
-    height: 100%;
-    /*background-color: greenyellow;*/
+  width: 60%;
+  float: right;
+  height: 100%;
 }
 
 .aboutmeLeft p.big{
