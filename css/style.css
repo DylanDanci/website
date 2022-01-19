@@ -1,748 +1,745 @@
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
 
 body{
-    margin: 0;
-    background-color: #202023;
+  margin: 0;
+  background-color: #202023;
 }
-    /* Navbar style */
+  /* Navbar style */
 .myNavbar{
-    /* padding: 50px; */
-    overflow: hidden;
-    /* background-color: yellow;  */
+  /* padding: 50px; */
+  overflow: hidden;
+  /* background-color: yellow;  */
 }
 
 .myNavbar a.me{
-    float: left!important;
-    display: block!important;
-    color:rgb(68, 235, 185)!important;
-    text-align: center!important;
-    text-decoration: none!important;
-    font-size: 2rem!important;
-    pointer-events: none!important;
-    cursor: default!important;
-    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.25em currentColor!important;
-  
+  float: left!important;
+  display: block!important;
+  color:rgb(68, 235, 185)!important;
+  text-align: center!important;
+  text-decoration: none!important;
+  font-size: 2rem!important;
+  pointer-events: none!important;
+  cursor: default!important;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.25em currentColor!important;
+
 }
 
 .myNavbar a.aboutme{
-    float: left;
-    color:whitesmoke;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1rem;
-    font-family: "Lucida Console", monospace;
-    position: relative;
-    left: 8%;
-    top: 1em;
+  float: left;
+  color:whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Lucida Console", monospace;
+  position: relative;
+  left: 8%;
+  top: 1em;
 }
 
 .myNavbar a.works{
-    float: left;
-    color:whitesmoke;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1rem;
-    font-family: "Lucida Console", monospace;
-    position: relative;
-    left: 16%;
-    top: 1em;
+  float: left;
+  color:whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Lucida Console", monospace;
+  position: relative;
+  left: 16%;
+  top: 1em;
 }
 
 .myNavbar a.contacts{
-    float: left;
-    color:whitesmoke;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1rem;
-    font-family: "Lucida Console", monospace;
-    position: relative;
-    left: 24%;
-    top: 1em;
+  float: left;
+  color:whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Lucida Console", monospace;
+  position: relative;
+  left: 24%;
+  top: 1em;
 }
 
 .myNavbar a.github{
-    float: right;
-    position: relative;
-    top: 0.4rem;
-    right: 0.5%;
+  float: right;
+  position: relative;
+  top: 0.4rem;
+  right: 0.5%;
 }
 
 img.github{
-    float:left;
-    max-width: 2.06rem;
-    height: auto;
-    filter: brightness(500);
-    position: relative;
+  float:left;
+  max-width: 2.06rem;
+  height: auto;
+  filter: brightness(500);
+  position: relative;
 }
 
 .myNavbar a.linkedin{
-    float: right;
-    position: relative;
-    top: 0.16rem;
+  float: right;
+  position: relative;
+  top: 0.16rem;
 }
 
 img.linkedin{
-    float:left;
-    max-width: 2.5rem;
-    height: auto;
-    position: relative;
-    filter: invert();
+  float:left;
+  max-width: 2.5rem;
+  height: auto;
+  position: relative;
+  filter: invert();
 }
 
 .myNavbar a.activeAboutMe{
-    color:rgb(68, 235, 185)!important;
-    float: left;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1rem;
-    font-family: "Lucida Console", monospace;
-    position: relative;
-    left: 8%;
-    top: 1em;
+  color:rgb(68, 235, 185)!important;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Lucida Console", monospace;
+  position: relative;
+  left: 8%;
+  top: 1em;
 }
 
 .myNavbar a.activeWorks{
-    float: left;
-    color:rgb(68, 235, 185)!important;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1rem;
-    font-family: "Lucida Console", monospace;
-    position: relative;
-    left: 16%;
-    top: 1em;
+  float: left;
+  color:rgb(68, 235, 185)!important;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Lucida Console", monospace;
+  position: relative;
+  left: 16%;
+  top: 1em;
 }
 
 .myNavbar a.activeContacts{
-    float: left;
-    color:rgb(68, 235, 185)!important;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1rem;
-    font-family: "Lucida Console", monospace;
-    position: relative;
-    left: 24%;
-    top: 1em;
+  float: left;
+  color:rgb(68, 235, 185)!important;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Lucida Console", monospace;
+  position: relative;
+  left: 24%;
+  top: 1em;
 }
 
 
 .myNavbar a.aboutme:hover, a.works:hover, a.contacts:hover{
-    color:rgb(68, 235, 185);
+  color:rgb(68, 235, 185);
 }
 
 
 
-    /* Pages */
+  /* Pages */
 div.main{
-    width: 80%;
-    position: relative;
-    top: 1rem;
-    left: 0;
-    /* background-color: burlywood;   */
-    margin: auto;
-    /* torna qui */
+  width: 80%;
+  position: relative;
+  top: 1rem;
+  left: 0;
+  /* background-color: burlywood;   */
+  margin: auto;
+  /* torna qui */
 }
 
 
 div.aboutme{
-    /* background-color: aqua; */
-    position: relative;
-    width: 100%;
-    height: 948px;
-    /* background-color:#084B8A; */
-    border-top: solid; 
-    border-color: rgba(194, 196, 195, 0.356);
-    border-width: 1px;
-    top: 2px;
+  /* background-color: aqua; */
+  position: relative;
+  width: 100%;
+  height: 948px;
+  /* background-color:#084B8A; */
+  border-top: solid; 
+  border-color: rgba(194, 196, 195, 0.356);
+  border-width: 1px;
+  top: 2px;
 
 }
 
 
 
 img.myImg{
-    position: relative;
-    right: -25%;
-    width: 50%;
-    height: auto;
-    border-color: burlywood;
-    border-style: double;
-    top: 2rem;
-    
+  position: relative;
+  right: -25%;
+  width: 50%;
+  height: auto;
+  top: 20%;  
+  border-radius: 50%;
 }
 
 
 
 div.aboutmeLeft{
-    width: 40%;
-    float: left;
-    position: relative;
-    height: 100%;
-    
-}
-
-div.aboutmeRight{
+  width: 40%;
+  float: left;
   position: relative;
-  width: 60%;
-  float: right;
   height: 100%;
 }
 
+div.aboutmeRight{
+position: relative;
+width: 60%;
+float: right;
+height: 100%;
+}
+
 .aboutmeLeft p.big{
-    color: whitesmoke;
-    font-family: "Lucida Console", monospace;
-    font-size: xxx-large;
-    margin: 0;
-    white-space: pre-line;
-    left: 5%;
-    position: relative;
-    
+  color: whitesmoke;
+  font-family: "Lucida Console", monospace;
+  font-size: xxx-large;
+  margin: 0;
+  white-space: pre-line;
+  left: 5%;
+  position: relative;
+  
 }
 
 .aboutmeLeft p.hobbies{
-    color: whitesmoke;
-    font-family: "Lucida Console", monospace;
-    font-size: larger;
-    margin: 0;
-    line-height: 1.2em;
-    left: 5%;
-    position: relative;
-    top: 10px;
-    
-    
+  color: whitesmoke;
+  font-family: "Lucida Console", monospace;
+  font-size: larger;
+  margin: 0;
+  line-height: 1.2em;
+  left: 5%;
+  position: relative;
+  top: 10px;
+  
+  
 }
 
 .aboutmeLeft p.love{
-    color: whitesmoke;
-    font-family: "Lucida Console", monospace;
-    font-size: xx-large;
-    margin: 0;
-    left: 5%;
-    position: relative;
-    border-bottom: 3px solid hsl(0 0% 100% / 0.3);
-    display: inline-block;
-    line-height: 0.85;
-    font-weight: bold;
-    
-}
-
-mark.red {
-    color:red;
-    background: none;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px red, 0 0 5px rgb(235, 57, 57);
-}
-
-mark.green {
-    color:green;
-    background: none;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 255, 0), 0 0 5px rgb(2, 83, 2);
-}
-
-mark.white {
-    color:whitesmoke;
-    background: none;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(207, 206, 206), 0 0 5px whitesmoke;
-}
-
-:root {
-    --clr-neon: rgb(0, 252, 155);
-    --clr-bg: #202023;
-  }
-
-.neon-button {
-    font-size: 2rem;
-    display: inline-block;
-    cursor: pointer;
-    text-decoration: none;
-    color: var(--clr-neon);
-    border: var(--clr-neon) 0.125em solid;
-    padding: 0.25em 1em;
-    border-radius: 0.25em;
-  
-    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
-  
-    box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
-  
-    position: relative;
-    
-  }
-
-  .neon-button::before {
-    pointer-events: none;
-    content: "";
-    position: absolute;
-    background: var(--clr-neon);
-    top: 120%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  
-    transform: perspective(1.3em) rotateX(40deg) scale(1, 0.35);
-    filter: blur(1em);
-    opacity: 0.7;
-  }
-  
-  .neon-button::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    box-shadow: 0 0 2em 0.5em var(--clr-neon);
-    opacity: 0;
-    background-color: var(--clr-neon);
-    z-index: -1;
-    transition: opacity 100ms linear;
-  }
-  
-  .neon-button:hover,
-  .neon-button:focus {
-    color: var(--clr-bg)!important;
-    text-shadow: none;
-    transform: scale(1.1);
-  }
-  
-  .neon-button:hover::before,
-  .neon-button:focus::before {
-    opacity: 1;
-  }
-  .neon-button:hover::after,
-  .neon-button:focus::after {
-    opacity: 1;
-  }
-
-
-  div.button{
-    position: relative;
-    top: 5em;
-    left: 35%;
-    padding-top: 1.2rem;
-    padding-bottom: 3rem;
-    width: fit-content;
-    /* background-color: blueviolet; */
-  }
-
-
-  div.works{
-      width: 100%;
-      position: relative;
-      height: 950px;
-      /* background-color: violet; */
-      /* background-color: rgb(140, 224, 230); */
-      top: 1px;
-
-  }
-
-  div.contacts{
-    width: 100%;
-    position: relative;
-    height: 500px;
-    /* background-color: yellow; */
-}
-
-img.up{
-    float:left;
-    max-width: 60px;
-    height: auto;
-    position: relative;
-}
-.backToTop {
-    position: fixed;
-    bottom: 20px;
-    right: 15px;
-    z-index: 99;
-    font-size: 18px;
-    display: none;
-    cursor: pointer;
-    color: rgb(226, 226, 152);
-    border: rgb(226, 226, 152) 0.125em solid;
-    border-radius: 50%;
-    background-color: #20202300;
-    padding: 1px;
-  
-    text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.3), 0 0 0.45em currentColor;
-  
-    box-shadow: inset 0 0 0.5em 0 rgb(226, 226, 152), 0 0 0.5em 0 rgb(226, 226, 152);
-  
-  }
-
-  .backToTop::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    box-shadow: 0 0 1.5em 0em rgb(226, 226, 152);
-    opacity: 0;
-    background-color: #20202300;
-    z-index: -1;
-    transition: opacity 100ms linear;
-    border-radius: 50%;
-  }
-  
-  .backToTop:hover,
-  .backToTop:focus {
-    color: rgb(226, 226, 152);
-    text-shadow: none;
-  }
-  
-  .backToTop:hover::before,
-  .backToTop:focus::before {
-    opacity: 1;
-  }
-  .backToTop:hover::after,
-  .backToTop:focus::after {
-    opacity: 1;
-  }
-
-
-  div.bio{
-      position: relative;
-      /* background-color: turquoise; */
-      width: auto;
-      height: auto;
-      top: 130px;
-      left: 5%;
-  }
-
-  .bioTable {
-      /* border: solid; */
-      border-width: 2px;
-      /* border-color: red; */
-      /* background-color: rgb(0, 0, 0); */
-      border-spacing: 0 15px;
-      width: 100%;
-  }
-
-  .bioTable td{
-    position: relative;
-    /* border: solid; */
-    border-width: 2px;
-    /* border-color: violet; */
-    font-size: larger;
-    color: whitesmoke;
-    font-family: "Lucida Console", monospace;
-    /* background-color: red; */
-  }
-
-  .bioTable td.anno{
-    position: relative;
-    font-size: larger;
-    font-weight: bold;
-    color: whitesmoke;
-  }
-
-  .bioTable th{
-    position: relative;
-    color: whitesmoke;
-    font-size: xx-large;
-    font-weight: bold;
-    border-bottom: 3px solid hsl(0 0% 100% / 0.3);
-    display: inline-block;
-    line-height: 0.85;
-  }
-
-
-
-  img.logo{
-    top: 5px;
-    float:left;
-    max-width: 100px;
-    height: 100%;
-    position: relative;
-  }
-
-  div.contactsWrite{
-    position: relative;
-    left:2%;
-    top: 30px;
-    color: whitesmoke;
-    font-size: xx-large;
-    font-weight: bold;
-    border-bottom: 3px solid hsl(0 0% 100% / 0.3);
-    display: inline-block;
-    line-height: 0.85;
-    /* background-color: rgb(255, 145, 0); */
-  }
-
-  div.contactsLink{
-    position: relative;
-    /* background-color: green; */
-    top: 10px;
-    left: 24px;
-    width: 390px;
-    height: 50px;
-    cursor:pointer;
-  }
-
-  div.contactsLink:hover{
-    background-color: rgba(0, 255, 229, 0.116);
-    border-radius: 10px;
-  }
-
-  div.contactsLink p{
-    position: relative;
-    color: whitesmoke;
-    font-size: xx-large;
-    position: relative;
-    vertical-align: center;
-    top: 15px;
-    /* background-color: brown; */
-  }
-
- #customer{
-   position: relative;
-   width: 89.9%;
-   left: 5%;
-   /* background-color: red; */
- }
-
- #myProjects{
-  top: 40px;
-  position: relative;
-  width: 89.9%;
-  /* background-color: red; */
-  left: 5%;
-  float: left;
-}
-
- .split{
-   width: 33.3%;
-   height: 100%;
-   box-sizing: border-box;
-   /* border: 1px solid black; */
-   float: left;
-   text-align: center;
-   padding: 16px;
-   position: relative;
-   /* background-color: blue; */
-   
- }
-
-
- .works p.works{
   color: whitesmoke;
-  font-size: xx-large;
   font-family: "Lucida Console", monospace;
+  font-size: xx-large;
+  margin: 0;
+  left: 5%;
   position: relative;
-  left: 2%;
   border-bottom: 3px solid hsl(0 0% 100% / 0.3);
   display: inline-block;
   line-height: 0.85;
   font-weight: bold;
+  
 }
 
-.works p.subWorks{
+mark.red {
+  color:red;
+  background: none;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px red, 0 0 5px rgb(235, 57, 57);
+}
+
+mark.green {
+  color:green;
+  background: none;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 255, 0), 0 0 5px rgb(2, 83, 2);
+}
+
+mark.white {
+  color:whitesmoke;
+  background: none;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(207, 206, 206), 0 0 5px whitesmoke;
+}
+
+:root {
+  --clr-neon: rgb(0, 252, 155);
+  --clr-bg: #202023;
+}
+
+.neon-button {
+  font-size: 2rem;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--clr-neon);
+  border: var(--clr-neon) 0.125em solid;
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
+
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+
+  box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+
+  position: relative;
+  
+}
+
+.neon-button::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  background: var(--clr-neon);
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  transform: perspective(1.3em) rotateX(40deg) scale(1, 0.35);
+  filter: blur(1em);
+  opacity: 0.7;
+}
+
+.neon-button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 2em 0.5em var(--clr-neon);
+  opacity: 0;
+  background-color: var(--clr-neon);
+  z-index: -1;
+  transition: opacity 100ms linear;
+}
+
+.neon-button:hover,
+.neon-button:focus {
+  color: var(--clr-bg)!important;
+  text-shadow: none;
+  transform: scale(1.1);
+}
+
+.neon-button:hover::before,
+.neon-button:focus::before {
+  opacity: 1;
+}
+.neon-button:hover::after,
+.neon-button:focus::after {
+  opacity: 1;
+}
+
+
+div.button{
+  position: relative;
+  top: 5em;
+  left: 35%;
+  padding-top: 1.2rem;
+  padding-bottom: 3rem;
+  width: fit-content;
+  /* background-color: blueviolet; */
+}
+
+
+div.works{
+    width: 100%;
+    position: relative;
+    height: 950px;
+    /* background-color: violet; */
+    /* background-color: rgb(140, 224, 230); */
+    top: 1px;
+
+}
+
+div.contacts{
+  width: 100%;
+  position: relative;
+  height: 500px;
+  /* background-color: yellow; */
+}
+
+img.up{
+  float:left;
+  max-width: 60px;
+  height: auto;
+  position: relative;
+}
+.backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  z-index: 99;
+  font-size: 18px;
+  display: none;
+  cursor: pointer;
+  color: rgb(226, 226, 152);
+  border: rgb(226, 226, 152) 0.125em solid;
+  border-radius: 50%;
+  background-color: #20202300;
+  padding: 1px;
+
+  text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.3), 0 0 0.45em currentColor;
+
+  box-shadow: inset 0 0 0.5em 0 rgb(226, 226, 152), 0 0 0.5em 0 rgb(226, 226, 152);
+
+}
+
+.backToTop::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 1.5em 0em rgb(226, 226, 152);
+  opacity: 0;
+  background-color: #20202300;
+  z-index: -1;
+  transition: opacity 100ms linear;
+  border-radius: 50%;
+}
+
+.backToTop:hover,
+.backToTop:focus {
+  color: rgb(226, 226, 152);
+  text-shadow: none;
+}
+
+.backToTop:hover::before,
+.backToTop:focus::before {
+  opacity: 1;
+}
+.backToTop:hover::after,
+.backToTop:focus::after {
+  opacity: 1;
+}
+
+
+div.bio{
+    position: relative;
+    /* background-color: turquoise; */
+    width: auto;
+    height: auto;
+    top: 130px;
+    left: 5%;
+}
+
+.bioTable {
+    /* border: solid; */
+    border-width: 2px;
+    /* border-color: red; */
+    /* background-color: rgb(0, 0, 0); */
+    border-spacing: 0 15px;
+    width: 100%;
+}
+
+.bioTable td{
+  position: relative;
+  /* border: solid; */
+  border-width: 2px;
+  /* border-color: violet; */
+  font-size: larger;
   color: whitesmoke;
-  font-size: large;
   font-family: "Lucida Console", monospace;
+  /* background-color: red; */
+}
+
+.bioTable td.anno{
+  position: relative;
+  font-size: larger;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.bioTable th{
+  position: relative;
+  color: whitesmoke;
+  font-size: xx-large;
+  font-weight: bold;
   border-bottom: 3px solid hsl(0 0% 100% / 0.3);
   display: inline-block;
   line-height: 0.85;
 }
 
-.box{
-  top: 100%;
-  width: 100%;
+
+
+img.logo{
+  top: 5px;
+  float:left;
+  max-width: 100px;
+  height: 100%;
   position: relative;
-  height: 333px; /* auto */
+}
+
+div.contactsWrite{
+  position: relative;
+  left:2%;
+  top: 30px;
+  color: whitesmoke;
+  font-size: xx-large;
+  font-weight: bold;
+  border-bottom: 3px solid hsl(0 0% 100% / 0.3);
+  display: inline-block;
+  line-height: 0.85;
+  /* background-color: rgb(255, 145, 0); */
+}
+
+div.contactsLink{
+  position: relative;
   /* background-color: green; */
+  top: 10px;
+  left: 24px;
+  width: 390px;
+  height: 50px;
+  cursor:pointer;
+}
+
+div.contactsLink:hover{
+  background-color: rgba(0, 255, 229, 0.116);
+  border-radius: 10px;
+}
+
+div.contactsLink p{
+  position: relative;
+  color: whitesmoke;
+  font-size: xx-large;
+  position: relative;
+  vertical-align: center;
+  top: 15px;
+  /* background-color: brown; */
+}
+
+#customer{
+ position: relative;
+ width: 89.9%;
+ left: 5%;
+ /* background-color: red; */
+}
+
+#myProjects{
+top: 40px;
+position: relative;
+width: 89.9%;
+/* background-color: red; */
+left: 5%;
+float: left;
+}
+
+.split{
+ width: 33.3%;
+ height: 100%;
+ box-sizing: border-box;
+ /* border: 1px solid black; */
+ float: left;
+ text-align: center;
+ padding: 16px;
+ position: relative;
+ /* background-color: blue; */
+ 
+}
+
+
+.works p.works{
+color: whitesmoke;
+font-size: xx-large;
+font-family: "Lucida Console", monospace;
+position: relative;
+left: 2%;
+border-bottom: 3px solid hsl(0 0% 100% / 0.3);
+display: inline-block;
+line-height: 0.85;
+font-weight: bold;
+}
+
+.works p.subWorks{
+color: whitesmoke;
+font-size: large;
+font-family: "Lucida Console", monospace;
+border-bottom: 3px solid hsl(0 0% 100% / 0.3);
+display: inline-block;
+line-height: 0.85;
+}
+
+.box{
+top: 100%;
+width: 100%;
+position: relative;
+height: 333px; /* auto */
+/* background-color: green; */
 }
 
 .box2{
-  top: 100%;
-  width: 100%;
-  position: relative;
-  height: 333px;
-  /* background-color: green; */
+top: 100%;
+width: 100%;
+position: relative;
+height: 333px;
+/* background-color: green; */
 }
 
 .photo{
-  width: 100%;
-  height: auto;
-  background-color: whitesmoke;
-  border-radius: 5%;
+width: 100%;
+height: auto;
+background-color: whitesmoke;
+border-radius: 5%;
 }
 
 .photo-overlay{
-  width: 100%;
-  height: auto;
-  background-color: whitesmoke;
-  border-radius: 5%;
+width: 100%;
+height: auto;
+background-color: whitesmoke;
+border-radius: 5%;
 }
 
 .photo img{
-  width: 100%;
-  height: 100%;
-  border-radius: 5%;
-  background-color: turquoise;
-  filter: brightness(80%);
-  box-shadow: 5px 5px 10px rgba(241, 214, 62, 0.274);
+width: 100%;
+height: 100%;
+border-radius: 5%;
+background-color: turquoise;
+filter: brightness(80%);
+box-shadow: 5px 5px 10px rgba(241, 214, 62, 0.274);
 }
 
 .imgOpacity{
-   opacity: 0.4;
+ opacity: 0.4;
 }
 
 
 /* .photo img:hover{
-  box-shadow: 5px 5px 5em rgba(241, 214, 62, 0.534);
-  transform: scale(1.08);
-  cursor: pointer;
-  opacity: 40%;
-  display: block;
+box-shadow: 5px 5px 5em rgba(241, 214, 62, 0.534);
+transform: scale(1.08);
+cursor: pointer;
+opacity: 40%;
+display: block;
 } */
 
 
 
 .click{
-  box-shadow: 5px 5px 5em rgba(241, 214, 62, 0.534);
-  transform: scale(1.08);
-  display: block;
+box-shadow: 5px 5px 5em rgba(241, 214, 62, 0.534);
+transform: scale(1.08);
+display: block;
 }
 .clickLight{
-  box-shadow: 5px 5px 5em rgb(89, 0, 255);
-  transform: scale(1.08);
-  display: block;
+box-shadow: 5px 5px 5em rgb(89, 0, 255);
+transform: scale(1.08);
+display: block;
 }
 
 #titoloANCL{
-  color: black;
-  position: fixed;
-  top: 1px;
-  left: 25%;
-  white-space: pre-line;
+color: black;
+position: fixed;
+top: 1px;
+left: 25%;
+white-space: pre-line;
 }
 
 #descrizioneANCL{
-  color: black;
-  position: fixed;
-  top: 75px;
-  left: 0.5%;
-  white-space: pre-line;
-  font-size: x-large;
+color: black;
+position: fixed;
+top: 75px;
+left: 0.5%;
+white-space: pre-line;
+font-size: x-large;
 }
 
 #descrizioneRuffo{
-  color: black;
-  position: fixed;
-  top: 70px;
-  left: 2%;
-  font-size: x-large;
-  white-space: pre-line;
+color: black;
+position: fixed;
+top: 70px;
+left: 2%;
+font-size: x-large;
+white-space: pre-line;
 }
 
 #titoloRuffo{
-  color: black;
-  position: fixed;
-  top: 1px;
-  left: 30%;
-  white-space: pre-line
+color: black;
+position: fixed;
+top: 1px;
+left: 30%;
+white-space: pre-line
 }
 
 .photo a{
-  color: black;
+color: black;
 }
 
 #descrizioneWebsite{
-  color: black;
-  position: fixed;
-  top: 40px;
-  left: 2%;
-  font-size: x-large;
-  white-space: pre-line;
+color: black;
+position: fixed;
+top: 40px;
+left: 2%;
+font-size: x-large;
+white-space: pre-line;
 }
 
 #titoloWebsite{
-  color: black;
-  position: fixed;
-  top: 1px;
-  left: 25%;
-  white-space: pre-line
+color: black;
+position: fixed;
+top: 1px;
+left: 25%;
+white-space: pre-line
 }
 
 #descrizionePysubot{
-  color: black;
-  position: fixed;
-  top: 40px;
-  left: 2%;
-  font-size: x-large;
-  white-space: pre-line;
+color: black;
+position: fixed;
+top: 40px;
+left: 2%;
+font-size: x-large;
+white-space: pre-line;
 }
 
 #titoloPysubot{
-  color: black;
-  position: fixed;
-  top: 1px;
-  left: 36%;
-  white-space: pre-line
+color: black;
+position: fixed;
+top: 1px;
+left: 36%;
+white-space: pre-line
 }
 
 #descrizioneMinecraft{
-  color: black;
-  position: fixed;
-  top: 40px;
-  left: 2%;
-  font-size: x-large;
-  white-space: pre-line;
+color: black;
+position: fixed;
+top: 40px;
+left: 2%;
+font-size: x-large;
+white-space: pre-line;
 }
 
 #titoloMinecraft{
-  color: black;
-  position: fixed;
-  top: 20px;
-  left: 27%;
-  white-space: pre-line;
+color: black;
+position: fixed;
+top: 20px;
+left: 27%;
+white-space: pre-line;
 }
 
 .ghost{
-  display: none;
-  user-select: none; /* supported by Chrome and Opera */
-   -webkit-user-select: none; /* Safari */
-   -khtml-user-select: none; /* Konqueror HTML */
-   -moz-user-select: none; /* Firefox */
-   -ms-user-select: none; /* Internet Explorer/Edge */
+display: none;
+user-select: none; /* supported by Chrome and Opera */
+ -webkit-user-select: none; /* Safari */
+ -khtml-user-select: none; /* Konqueror HTML */
+ -moz-user-select: none; /* Firefox */
+ -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
 
 .myNavbar .icon{
-  float: right;
-  font-size: 35px;
-  color: whitesmoke;
-  display: none;
+float: right;
+font-size: 35px;
+color: whitesmoke;
+display: none;
 }
 
 .myNavbar.cell{height: 100px;}
 
 footer {
-  text-align: center;
-  padding-bottom: 3px;
-  color: white;
-  border-top: 1px solid hsl(0 0% 100% / 0.3);
+text-align: center;
+padding-bottom: 3px;
+color: white;
+border-top: 1px solid hsl(0 0% 100% / 0.3);
 }
 
 .theme{
-  background-color: #f0e7db;
+background-color: #f0e7db;
 }
 .lightTheme{
-  color: black!important;
+color: black!important;
 }
 .myNavbar .lightTheme:hover{
-  color: rgb(68, 235, 185)!important;
+color: rgb(68, 235, 185)!important;
 }
 .lightDivAboutMe{
-  border-color: black!important;
+border-color: black!important;
 }
 .lightButton{
-  color: rgb(119, 0, 255)!important;
-  border: rgb(119, 0, 255) 0.125em solid;
-  box-shadow: inset 0 0 0.5em 0 rgb(119, 0, 255), 0 0 0.5em 0 rgb(119, 0, 255);
+color: rgb(119, 0, 255)!important;
+border: rgb(119, 0, 255) 0.125em solid;
+box-shadow: inset 0 0 0.5em 0 rgb(119, 0, 255), 0 0 0.5em 0 rgb(119, 0, 255);
 }
 .lightButton::before {
-  background: rgb(119, 0, 255);
+background: rgb(119, 0, 255);
 }
 .lightButton::after {
 box-shadow: 0 0 2em 0.5em rgb(119, 0, 255);
@@ -750,152 +747,152 @@ background-color: rgb(119, 0, 255);
 }
 .neon-button:hover,
 .neon-button:focus {
-  color: #f0e7db!important;
+color: #f0e7db!important;
 }
 .hoverLight:hover{
-  background-color: rgba(119, 0, 255, 0.13)!important;
+background-color: rgba(119, 0, 255, 0.13)!important;
 }
 .lightGit{
-  background-color: rgb(0, 0, 0)!important;
-  border-radius: 50%!important;
+background-color: rgb(0, 0, 0)!important;
+border-radius: 50%!important;
 }
 .lightLinkedin{
-  filter: none!important;
+filter: none!important;
 }
 .backToTopLight {
-  color: rgb(34, 34, 31)!important;
-  border: rgb(34, 34, 31) 0.125em solid!important;
-  box-shadow: inset 0 0 0.5em 0 rgb(111, 0, 255), 0 0 0.5em 0 rgb(111, 0, 255)!important;
+color: rgb(34, 34, 31)!important;
+border: rgb(34, 34, 31) 0.125em solid!important;
+box-shadow: inset 0 0 0.5em 0 rgb(111, 0, 255), 0 0 0.5em 0 rgb(111, 0, 255)!important;
 }
 .backToTopLight::after {
-  background-color: rgba(18, 17, 19, 0.082)!important;
-  box-shadow: 0 0 1.5em 0em rgb(111, 0, 255)!important;
+background-color: rgba(18, 17, 19, 0.082)!important;
+box-shadow: 0 0 1.5em 0em rgb(111, 0, 255)!important;
 }
 .backToTopLight:hover,
 .backToTopLight:focus {
-  color: rgb(111, 0, 255)!important;
+color: rgb(111, 0, 255)!important;
 }
 .backToTopLight img.up{
-  background-color: rgba(19, 17, 20, 0.212)!important;
-  border-radius: 50%;
+background-color: rgba(19, 17, 20, 0.212)!important;
+border-radius: 50%;
 }
 .boxLight img{
-  box-shadow: 5px 5px 10px rgb(111, 0, 255)!important;
+box-shadow: 5px 5px 10px rgb(111, 0, 255)!important;
 }
 
 img.DarkOrLight{
-  width: 28px;
-  height: 28px;
+width: 28px;
+height: 28px;
 }
 .sunOrMoon{
-  background-color: #f0e7db;
-  position: relative;
-  float: right;
-  right: 10px;
-  top: 5px;
-  border-radius: 8px;
-  border: solid;
-  border-width: 2px;
+background-color: #f0e7db;
+position: relative;
+float: right;
+right: 10px;
+top: 5px;
+border-radius: 8px;
+border: solid;
+border-width: 2px;
 }
 .dark{
-  background-color: #202023;
+background-color: #202023;
 }
 .dark img{
-  filter: invert();
+filter: invert();
 }
 .borderLight{
-  border-bottom: 3px solid rgba(26, 24, 27, 0.452)!important;
-  font-weight: bold;
+border-bottom: 3px solid rgba(26, 24, 27, 0.452)!important;
+font-weight: bold;
 }
 
 .footerBorder{
-  border-top: 1px solid rgb(0, 0, 0);
+border-top: 1px solid rgb(0, 0, 0);
 }
 
 .fade-in{
-  opacity: 0;
-  transition: opacity 250ms ease-in;
+opacity: 0;
+transition: opacity 250ms ease-in;
 }
 
 .fade-in.appear{
-  opacity: 1;
+opacity: 1;
 }
 
 /* google drive cv download
 https://drive.google.com/uc?export=download&id=1dEFcPE7ow52jtkcNXz9XqZQBkjPVVgN7 */
 
 @media screen and (max-width: 1024px) {
-    .contacts p{
-    font-size: 24px!important;
-    }
-  .aboutmeRight{
-    width: 0%;
-    display: none;
+  .contacts p{
+  font-size: 24px!important;
   }
-  .aboutmeLeft{
-    /* background-color: red; */
-    width: 100%!important;
-  }
-  .big{
-    left: 0px!important;
-    text-align: center;
-    white-space: normal!important;
-    top: 10px;
-  }
-  .love{
-    left: 2%!important;
-    top: 60px;
-  }
-  .hobbies{
-    left: 0px!important;
-    top: 60px!important;
-    left: 2%!important;
-  }
-  .button{
-    left: 42.5%!important;
-    top: 90px!important;
-  }
-  .bio{
-    top: 90px!important;
-    left: 2%!important;
-  }
-  div.aboutme{
-    /* background-color: yellow; */
-    height: 600px;
-  }
-  p.works{
-    left: 2%!important;
-  }
-  #customer{
-    top: -20px;
-  }
-  .box, .box2{
-    height: 185px;
-    top: -20px;
-  }
-  #myProjects{
-    top: -30px;
-  }
-  #titoloANCL{
-    left: 0px;
-    top: 0px;
-    font-size: 15px;
-    white-space: normal;
-    background-color: rgba(0, 0, 0, 0.116);
- }
- #descrizioneANCL{
-  left: 0px;
-  font-size: 15px;
-  top: 31px;
-  background-color: rgba(0, 0, 0, 0.116);
-  white-space: normal;
+.aboutmeRight{
+  width: 0%;
+  display: none;
 }
-#titoloRuffo{
-  left: 2%;
+.aboutmeLeft{
+  /* background-color: red; */
+  width: 100%!important;
+}
+.big{
+  left: 0px!important;
+  text-align: center;
+  white-space: normal!important;
+  top: 10px;
+}
+.love{
+  left: 2%!important;
+  top: 60px;
+}
+.hobbies{
+  left: 0px!important;
+  top: 60px!important;
+  left: 2%!important;
+}
+.button{
+  left: 42.5%!important;
+  top: 90px!important;
+}
+.bio{
+  top: 90px!important;
+  left: 2%!important;
+}
+div.aboutme{
+  /* background-color: yellow; */
+  height: 600px;
+}
+p.works{
+  left: 2%!important;
+}
+#customer{
+  top: -20px;
+}
+.box, .box2{
+  height: 185px;
+  top: -20px;
+}
+#myProjects{
+  top: -30px;
+}
+#titoloANCL{
+  left: 0px;
   top: 0px;
   font-size: 15px;
   white-space: normal;
   background-color: rgba(0, 0, 0, 0.116);
+}
+#descrizioneANCL{
+left: 0px;
+font-size: 15px;
+top: 31px;
+background-color: rgba(0, 0, 0, 0.116);
+white-space: normal;
+}
+#titoloRuffo{
+left: 2%;
+top: 0px;
+font-size: 15px;
+white-space: normal;
+background-color: rgba(0, 0, 0, 0.116);
 }
 #descrizioneRuffo{
 left: 0px;
@@ -905,15 +902,210 @@ background-color: rgba(0, 0, 0, 0.116);
 white-space: pre-line;
 }
 #titoloWebsite{
-  left: 17%;
-  top: 5px;
+left: 17%;
+top: 5px;
+font-size: 15px;
+white-space: normal;
+}
+#descrizioneWebsite{
+left: 0px;
+font-size: 15px;
+top: 21px;
+white-space: normal;
+background-color: rgba(0, 0, 0, 0.116);
+}
+#titoloPysubot{
+left: 35%;
+top: 0px;
+font-size: 15px;
+white-space: normal;
+background-color: rgba(0, 0, 0, 0.116);
+}
+#descrizionePysubot{
+left: 0px;
+font-size: 15px;
+top: 20px;
+background-color: rgba(0, 0, 0, 0.377);
+white-space: normal;
+}
+#titoloMinecraft{
+left: 27%;
+top: 0px;
+font-size: 15px;
+white-space: normal;
+background-color: rgba(0, 0, 0, 0.116);
+}
+#descrizioneMinecraft{
+left: 0px;
+font-size: 15px;
+top: 20px;
+background-color: rgba(0, 0, 0, 0.356);
+white-space: normal;
+}
+.imgOpacity{
+opacity: 100%;
+}
+div.works{
+/* background-color: yellowgreen; */
+height: 550px;
+}
+div.contacts{
+top: -50px;
+}
+div.photo p, h2, a{
+color: white!important;
+}
+}
+
+@media screen and (max-width: 830px) {
+.myNavbar img {display: none;}
+.DarkOrLight{display: block!important;}
+}
+@media screen and (max-width: 768px) {
+#myProjects{
+  top: -90px;
+}
+div.contacts{
+  top: -120px;
+}
+div.works{
+  top: 20px;
+  height: 750px;
+}
+.split{
+  width: 50%;
+  height: 100%;
+}
+#myProjects{
+  top: -30px;
+}
+div.contacts{
+  top: 0px;
+}
+}
+@media screen and (max-width: 692px) {
+.myNavbar a:not(:first-child) {display: none;}
+}
+@media screen and (max-width: 660px) {
+.myNavbar a.icon {
+  float: right;
+  display: block;
+}
+button.sunOrMoon{
+  top: 2px;
+}
+} 
+
+@media screen and (max-width: 660px) {
+.myNavbar.responsive {position: relative;}
+.myNavbar.responsive .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.myNavbar.responsive a{
+  top: 40px;
+  float: none;
+  display: block;
+  left:0;
+  text-align: right;
+}
+.myNavbar.responsive .me{
+  float: left;
+}
+div.works{
+  top: 40px;
+}
+}
+@media screen and (max-width: 540px) {
+  div.aboutme{
+    height: 640px;
+  }
+  .aboutmeLeft p.big{
+    font-size: xx-large;
+    text-align: center;
+  }
+  div.contactsLink p{
+    font-size: large!important;
+  }
+  div.bio{
+    left: 0px;
+    top: 50px;
+  }
+  .aboutmeLeft p.big{
+    left: 0px;
+    top: 15px;
+  }
+  div.contactsLink{
+    left: 0px;
+    width: 100%;
+    text-align: left;
+    height: 36px;
+  }
+  div.contacts{
+    top: -60px;
+  }
+  div.contactsWrite{
+    top: 10px;
+  }
+  .aboutmeLeft p.hobbies{
+    font-size: large;
+    left: 0px;
+  }
+  .aboutmeLeft p.love{
+    left: 0px;
+  }
+  div.button{
+    left: 28%;
+    top: 25px;
+  }
+.split{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    top: 0px;
+}
+#titoloANCL{
+    left: 0px;
+    top: 0px;
+    font-size: 15px;
+    white-space: normal;
+    background-color: rgba(0, 0, 0, 0.116);
+}
+#descrizioneANCL{
+  left: 0px;
+  font-size: 15px;
+  top: 31px;
+  background-color: rgba(0, 0, 0, 0.116);
+  white-space: normal;
+}
+
+#titoloRuffo{
+  left: 4%;
+  top: 0px;
+  font-size: 15px;
+  white-space: normal;
+  background-color: rgba(0, 0, 0, 0.116);
+}
+#descrizioneRuffo{
+left: 0px;
+font-size: 15px;
+top: 31px;
+background-color: rgba(0, 0, 0, 0.116);
+white-space: pre-line;
+}
+
+
+#titoloWebsite{
+  left: 4%;
+  top: 0px;
   font-size: 15px;
   white-space: normal;
 }
 #descrizioneWebsite{
 left: 0px;
 font-size: 15px;
-top: 21px;
+top: 31px;
 white-space: normal;
 background-color: rgba(0, 0, 0, 0.116);
 }
@@ -949,537 +1141,342 @@ white-space: normal;
   opacity: 100%;
 }
 div.works{
-  /* background-color: yellowgreen; */
-  height: 550px;
+  height: 1210px;
+}
+.works p.works{
+  left: 0px;
+  top: -30px;
+}
+.works p.subWorks{
+  position: relative;
+  font-size: 17px;
+  top: -40px;
+}
+#myProjects{
+  top: 10px;
+}
+img.up{
+  max-width: 40px;
+}
+.backToTop {
+  opacity: 0.85;
+}
+.backToTop:after {
+  opacity: 0.85;
+}
+#customer{
+  top: -30px;
+}
+#myProjects{
+  top: -20px;
+}
+.split{
+  top: -40px;
 }
 div.contacts{
-  top: -50px;
+  height: 720px;
 }
-div.photo p, h2, a{
-  color: white!important;
-}
-}
-
-@media screen and (max-width: 830px) {
-.myNavbar img {display: none;}
-  .DarkOrLight{display: block!important;}
-}
-@media screen and (max-width: 768px) {
-  #myProjects{
-    top: -90px;
-  }
-  div.contacts{
-    top: -120px;
-  }
-  div.works{
-    top: 20px;
-    height: 750px;
-  }
-  .split{
-    width: 50%;
-    height: 100%;
-  }
-  #myProjects{
-    top: -30px;
-  }
-  div.contacts{
-    top: 0px;
-  }
-}
-@media screen and (max-width: 692px) {
-  .myNavbar a:not(:first-child) {display: none;}
-}
-@media screen and (max-width: 660px) {
-  .myNavbar a.icon {
-    float: right;
-    display: block;
-  }
-  button.sunOrMoon{
-    top: 2px;
-  }
-} 
-
- @media screen and (max-width: 660px) {
-  .myNavbar.responsive {position: relative;}
-  .myNavbar.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .myNavbar.responsive a{
-    top: 40px;
-    float: none;
-    display: block;
-    left:0;
-    text-align: right;
-  }
-  .myNavbar.responsive .me{
-    float: left;
-  }
-  div.works{
-    top: 40px;
-  }
-}
-@media screen and (max-width: 540px) {
-    div.aboutme{
-      height: 640px;
-    }
-    .aboutmeLeft p.big{
-      font-size: xx-large;
-      text-align: center;
-    }
-    div.contactsLink p{
-      font-size: large!important;
-    }
-    div.bio{
-      left: 0px;
-      top: 50px;
-    }
-    .aboutmeLeft p.big{
-      left: 0px;
-      top: 15px;
-    }
-    div.contactsLink{
-      left: 0px;
-      width: 100%;
-      text-align: left;
-      height: 36px;
-    }
-    div.contacts{
-      top: -60px;
-    }
-    div.contactsWrite{
-      top: 10px;
-    }
-    .aboutmeLeft p.hobbies{
-      font-size: large;
-      left: 0px;
-    }
-    .aboutmeLeft p.love{
-      left: 0px;
-    }
-    div.button{
-      left: 28%;
-      top: 25px;
-    }
-  .split{
-      width: 100%;
-      height: auto;
-      text-align: left;
-      top: 0px;
-  }
-  #titoloANCL{
-      left: 0px;
-      top: 0px;
-      font-size: 15px;
-      white-space: normal;
-      background-color: rgba(0, 0, 0, 0.116);
-  }
-  #descrizioneANCL{
-    left: 0px;
-    font-size: 15px;
-    top: 31px;
-    background-color: rgba(0, 0, 0, 0.116);
-    white-space: normal;
-  }
-
-  #titoloRuffo{
-    left: 4%;
-    top: 0px;
-    font-size: 15px;
-    white-space: normal;
-    background-color: rgba(0, 0, 0, 0.116);
-  }
-  #descrizioneRuffo{
-  left: 0px;
-  font-size: 15px;
-  top: 31px;
-  background-color: rgba(0, 0, 0, 0.116);
-  white-space: pre-line;
-  }
-
-
-  #titoloWebsite{
-    left: 4%;
-    top: 0px;
-    font-size: 15px;
-    white-space: normal;
-  }
-  #descrizioneWebsite{
-  left: 0px;
-  font-size: 15px;
-  top: 31px;
-  white-space: normal;
-  background-color: rgba(0, 0, 0, 0.116);
-  }
-  #titoloPysubot{
-    left: 35%;
-    top: 0px;
-    font-size: 15px;
-    white-space: normal;
-    background-color: rgba(0, 0, 0, 0.116);
-  }
-  #descrizionePysubot{
-  left: 0px;
-  font-size: 15px;
-  top: 20px;
-  background-color: rgba(0, 0, 0, 0.377);
-  white-space: normal;
-  }
-  #titoloMinecraft{
-    left: 27%;
-    top: 0px;
-    font-size: 15px;
-    white-space: normal;
-    background-color: rgba(0, 0, 0, 0.116);
-  }
-  #descrizioneMinecraft{
-  left: 0px;
-  font-size: 15px;
-  top: 20px;
-  background-color: rgba(0, 0, 0, 0.356);
-  white-space: normal;
-  }
-  .imgOpacity{
-    opacity: 100%;
-  }
-  div.works{
-    height: 1210px;
-  }
-  .works p.works{
-    left: 0px;
-    top: -30px;
-  }
-  .works p.subWorks{
-    position: relative;
-    font-size: 17px;
-    top: -40px;
-  }
-  #myProjects{
-    top: 10px;
-  }
-  img.up{
-    max-width: 40px;
-  }
-  .backToTop {
-    opacity: 0.85;
-  }
-  .backToTop:after {
-    opacity: 0.85;
-  }
-  #customer{
-    top: -30px;
-  }
-  #myProjects{
-    top: -20px;
-  }
-  .split{
-    top: -40px;
-  }
-  div.contacts{
-    height: 720px;
-  }
 }
 
 @media screen and (max-width: 414px) {
-  .aboutme{
-    /* background-color: red; */
-    height: 620px;
-  }
+.aboutme{
+  /* background-color: red; */
+  height: 620px;
+}
 
-  .aboutmeLeft{
-    /* background-color: yellow; */
-    height: 620px;
-  }
-  div.contacts{
-    height: 250px;
-  }
-  div.contactsWrite{
-    top: -60px;
-  }
-  div.contactsLink{
-    top: -75px;
-  }
-  #myProjects{
-    top: -60px;
-  }
-  .button{
-    left: 32.5%!important;
-  }
-  div.works{
-    top: 50px;
-  }
-  div.contacts{
-    top: 0px;
-    height: 360px!important;
-  }
-  .myNavbar.responsive a{
-    height: 18px;
-  }
-  footer{
-    text-align: center!important;
-  }
+.aboutmeLeft{
+  /* background-color: yellow; */
+  height: 620px;
+}
+div.contacts{
+  height: 250px;
+}
+div.contactsWrite{
+  top: -60px;
+}
+div.contactsLink{
+  top: -75px;
+}
+#myProjects{
+  top: -60px;
+}
+.button{
+  left: 32.5%!important;
+}
+div.works{
+  top: 50px;
+}
+div.contacts{
+  top: 0px;
+  height: 360px!important;
+}
+.myNavbar.responsive a{
+  height: 18px;
+}
+footer{
+  text-align: center!important;
+}
 }
 
 @media screen and (max-width: 414px) {
-  div.aboutme{
-    height: 580px;
-  }
-  .big{
-    font-size: 26px!important;
-  }
-  div.contacts{
-    height: 340px;
-  }
-  footer{
-    text-align: left;
-  }
-  footer p{
-    font-size: 12px;
-  }
-  .bio th{
-    font-size: 20px!important;
-  }
-  .bio td, td.anno{
-    font-size: 15px!important;
-  }
+div.aboutme{
+  height: 580px;
+}
+.big{
+  font-size: 26px!important;
+}
+div.contacts{
+  height: 340px;
+}
+footer{
+  text-align: left;
+}
+footer p{
+  font-size: 12px;
+}
+.bio th{
+  font-size: 20px!important;
+}
+.bio td, td.anno{
+  font-size: 15px!important;
+}
 }
 
 @media screen and (max-width: 411px) {
-  .bio td, td.anno{
-    font-size: 19px!important;
-  }
-  div.aboutme{
-    height: 650px;
-  }
-  footer{
-    text-align: left!important;
-  }
+.bio td, td.anno{
+  font-size: 19px!important;
+}
+div.aboutme{
+  height: 650px;
+}
+footer{
+  text-align: left!important;
+}
 }
 
 
 @media screen and (max-width: 375px) {
-  div.aboutme{
-    height: 700px!important;
-  }
-  div.contacts{
-    height: 270px!important;
-  }
-  footer{
-    text-align: left!important;
-  }
-  footer p{
-    font-size: 11px;
-  }
-  button.sunOrMoon{
-    height: 33px;
-  }
+div.aboutme{
+  height: 700px!important;
+}
+div.contacts{
+  height: 270px!important;
+}
+footer{
+  text-align: left!important;
+}
+footer p{
+  font-size: 11px;
+}
+button.sunOrMoon{
+  height: 33px;
+}
 }
 
 @media screen and (max-width: 360px) {
-  .big{
-    font-size: 20px!important;
-  }
-  .love{
-    font-size: 20px!important;
-  }
-  .hobbies{
-    font-size: 15px!important;
-  }
-  .bio th{
-    font-size: 20px!important;
-  }
-  .bio td, td.anno{
-    font-size: 15px!important;
-  }
-  p.works{
-    font-size: 20px!important;
-    position: relative;
-  }
-  p.subWorks {
-    font-size: 15px!important;
-    top: -20px!important;
-  }
-  .contactsWrite{
-    font-size: 20px!important;
-  }
-  div.contacts p{
-    font-size: 15px!important;
-  }
-  .split{
-    top: -20px;
-  }
-  div.works{
-    height: 1080px;
-  }
-  .button{
-    left: 27%!important;
-  }
-  div.aboutme{
-    height: 550px!important;
-  }
-  footer{
-    text-align: left;
-  }
-  footer p{
-    font-size: 10px;
-  }
-  div.contacts{
-    height: 300px!important;
-  }
-  button.sunOrMoon{
-    top: 2px;
-    height: 32px;
-  }
+.big{
+  font-size: 20px!important;
+}
+.love{
+  font-size: 20px!important;
+}
+.hobbies{
+  font-size: 15px!important;
+}
+.bio th{
+  font-size: 20px!important;
+}
+.bio td, td.anno{
+  font-size: 15px!important;
+}
+p.works{
+  font-size: 20px!important;
+  position: relative;
+}
+p.subWorks {
+  font-size: 15px!important;
+  top: -20px!important;
+}
+.contactsWrite{
+  font-size: 20px!important;
+}
+div.contacts p{
+  font-size: 15px!important;
+}
+.split{
+  top: -20px;
+}
+div.works{
+  height: 1080px;
+}
+.button{
+  left: 27%!important;
+}
+div.aboutme{
+  height: 550px!important;
+}
+footer{
+  text-align: left;
+}
+footer p{
+  font-size: 10px;
+}
+div.contacts{
+  height: 300px!important;
+}
+button.sunOrMoon{
+  top: 2px;
+  height: 32px;
+}
 }
 
 @media screen and (max-width: 350px) {
-  .myNavbar .me, .fa{
-    font-size: 20px!important;
-  }
-  .myNavbar a.icon{
-    font-size: 20px;
-  }
-  button.sunOrMoon{
-    top: 2px;
-    height: 20px;
-    width: 25px;
-  }
-  img.DarkOrLight{
-    display: none!important;
-  }
-    div.works{
-    height: 1080px;
-  }
+.myNavbar .me, .fa{
+  font-size: 20px!important;
+}
+.myNavbar a.icon{
+  font-size: 20px;
+}
+button.sunOrMoon{
+  top: 2px;
+  height: 20px;
+  width: 25px;
+}
+img.DarkOrLight{
+  display: none!important;
+}
+  div.works{
+  height: 1080px;
+}
 }
 
 @media screen and (max-width: 320px) {
-  .myNavbar a.icon{
-    font-size: 13px;
-  }
-   .myNavbar a{
-    font-size: 12px!important;
-  }
-  div.contacts{
-    height: 240px!important;
-  }
-  footer{
-    text-align: left;
-  }
-  footer p{
-    font-size: 8px;
-  }
-  .myNavbar a.me{
-    font-size: 25px!important;
-  }
-  button.sunOrMoon{
-    top: 0px;
-  }
+.myNavbar a.icon{
+  font-size: 13px;
+}
+ .myNavbar a{
+  font-size: 12px!important;
+}
+div.contacts{
+  height: 240px!important;
+}
+footer{
+  text-align: left;
+}
+footer p{
+  font-size: 8px;
+}
+.myNavbar a.me{
+  font-size: 25px!important;
+}
+button.sunOrMoon{
+  top: 0px;
+}
 }
 
 @media screen and (max-width: 280px) {
-  .bio td, td.anno{
-    font-size: 13px!important;
-  }
-  div.aboutme{
-    height: 600px!important;
-  }
-  div.works{
-    height: 900px!important;
-  }
-  .myNavbar a{
-    font-size: 12px!important;
-  }
-  .myNavbar .me, .fa{
-    font-size: 20px!important;
-  }
-  #titoloANCL{
-    left: 0px;
-    top: 0px;
-    font-size: 11px;
-    white-space: normal;
-    background-color: rgba(0, 0, 0, 0.116);
-  }
-  #descrizioneANCL{
-    left: 0px;
-    font-size: 11px;
-    top: 31px;
-    background-color: rgba(0, 0, 0, 0.116);
-    white-space: normal;
-  }
-
-  #titoloRuffo{
-    left: 4%;
-    top: 0px;
-    font-size: 11px;
-    white-space: normal;
-    background-color: rgba(0, 0, 0, 0.116);
-  }
-  #descrizioneRuffo{
+.bio td, td.anno{
+  font-size: 13px!important;
+}
+div.aboutme{
+  height: 600px!important;
+}
+div.works{
+  height: 900px!important;
+}
+.myNavbar a{
+  font-size: 12px!important;
+}
+.myNavbar .me, .fa{
+  font-size: 20px!important;
+}
+#titoloANCL{
+  left: 0px;
+  top: 0px;
+  font-size: 11px;
+  white-space: normal;
+  background-color: rgba(0, 0, 0, 0.116);
+}
+#descrizioneANCL{
   left: 0px;
   font-size: 11px;
   top: 31px;
   background-color: rgba(0, 0, 0, 0.116);
-  white-space: pre-line;
-  }
+  white-space: normal;
+}
 
-
-  #titoloWebsite{
-    left: 18%;
-    top: 0px;
-    font-size: 11px;
-    white-space: normal;
-  }
-  #descrizioneWebsite{
-  left: 0px;
+#titoloRuffo{
+  left: 4%;
+  top: 0px;
   font-size: 11px;
-  top: 15px;
   white-space: normal;
   background-color: rgba(0, 0, 0, 0.116);
-  }
-  #titoloPysubot{
-    left: 35%;
-    top: 0px;
-    font-size: 11px;
-    white-space: normal;
-    background-color: rgba(0, 0, 0, 0.116);
-  }
-  #descrizionePysubot{
-  left: 0px;
+}
+#descrizioneRuffo{
+left: 0px;
+font-size: 11px;
+top: 31px;
+background-color: rgba(0, 0, 0, 0.116);
+white-space: pre-line;
+}
+
+
+#titoloWebsite{
+  left: 18%;
+  top: 0px;
   font-size: 11px;
-  top: 20px;
-  background-color: rgba(0, 0, 0, 0.377);
   white-space: normal;
-  }
-  #titoloMinecraft{
-    left: 27%;
-    top: 0px;
-    font-size: 11px;
-    white-space: normal;
-    background-color: rgba(0, 0, 0, 0.116);
-  }
-  #descrizioneMinecraft{
-  left: 0px;
+}
+#descrizioneWebsite{
+left: 0px;
+font-size: 11px;
+top: 15px;
+white-space: normal;
+background-color: rgba(0, 0, 0, 0.116);
+}
+#titoloPysubot{
+  left: 35%;
+  top: 0px;
   font-size: 11px;
-  top: 20px;
-  background-color: rgba(0, 0, 0, 0.356);
   white-space: normal;
+  background-color: rgba(0, 0, 0, 0.116);
+}
+#descrizionePysubot{
+left: 0px;
+font-size: 11px;
+top: 20px;
+background-color: rgba(0, 0, 0, 0.377);
+white-space: normal;
+}
+#titoloMinecraft{
+  left: 27%;
+  top: 0px;
+  font-size: 11px;
+  white-space: normal;
+  background-color: rgba(0, 0, 0, 0.116);
+}
+#descrizioneMinecraft{
+left: 0px;
+font-size: 11px;
+top: 20px;
+background-color: rgba(0, 0, 0, 0.356);
+white-space: normal;
+}
+footer{
+  text-align: center!important;
+}
+div.contacts{
+  height: 260px!important;
+}
+button.sunOrMoon{
+  top: 0px;
+}
+@media screen and (max-width: 240px) {
+  div.works{
+    top: 70px;
   }
-  footer{
-    text-align: center!important;
+  div.contacts p{
+    font-size: 12px!important;
   }
-  div.contacts{
-    height: 260px!important;
-  }
-  button.sunOrMoon{
-    top: 0px;
-  }
-  @media screen and (max-width: 240px) {
-    div.works{
-      top: 70px;
-    }
-    div.contacts p{
-      font-size: 12px!important;
-    }
-  }
+}
 }
