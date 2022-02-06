@@ -124,7 +124,7 @@ function showaANCL(){
     var x = document.getElementById("body");
     document.getElementById("titoloANCL").style.display="block";
     document.getElementById("descrizioneANCL").style.display="block";
-    document.getElementById("imgANCL").classList.add("imgOpacity");
+
     if (x.className === ""){
         document.getElementById("photoANCL").classList.add("click");    
     }else{
@@ -137,7 +137,7 @@ function unshowaANCL(){
     var x = document.getElementById("body");
     document.getElementById("titoloANCL").style.display="none";
     document.getElementById("descrizioneANCL").style.display="none";
-    document.getElementById("imgANCL").classList.remove("imgOpacity");
+
     if (x.className === ""){
         document.getElementById("photoANCL").classList.remove("click");;    
     }else{
@@ -149,7 +149,7 @@ function showaRuffo(){
     var x = document.getElementById("body");
     document.getElementById("titoloRuffo").style.display="block";
     document.getElementById("descrizioneRuffo").style.display="block";
-    document.getElementById("imgRuffo").classList.add("imgOpacity");
+
     if (x.className === ""){
         document.getElementById("photoRuffo").classList.add("click");    
     }else{
@@ -162,7 +162,7 @@ function unshowaRuffo(){
     document.getElementById("titoloRuffo").style.display="none";
     document.getElementById("descrizioneRuffo").style.display="none";
     document.getElementById("photoRuffo").classList.remove("click");
-    document.getElementById("imgRuffo").classList.remove("imgOpacity");
+ 
     if (x.className === ""){
         document.getElementById("photoRuffo").classList.remove("click");;    
     }else{
@@ -175,7 +175,7 @@ function showaWebsite(){
     document.getElementById("titoloWebsite").style.display="block";
     document.getElementById("descrizioneWebsite").style.display="block";
     document.getElementById("photoWebsite").classList.add("click");
-    document.getElementById("imgWebsite").classList.add("imgOpacity");
+
     if (x.className === ""){
         document.getElementById("photoWebsite").classList.add("click");    
     }else{
@@ -188,7 +188,7 @@ function unshowaWebsite(){
     document.getElementById("titoloWebsite").style.display="none";
     document.getElementById("descrizioneWebsite").style.display="none";
     document.getElementById("photoWebsite").classList.remove("click");
-    document.getElementById("imgWebsite").classList.remove("imgOpacity");
+
     if (x.className === ""){
         document.getElementById("photoWebsite").classList.remove("click");;    
     }else{
@@ -201,7 +201,7 @@ function showaPysubot(){
     document.getElementById("titoloPysubot").style.display="block";
     document.getElementById("descrizionePysubot").style.display="block";
     document.getElementById("photoPysubot").classList.add("click");
-    document.getElementById("imgPysubot").classList.add("imgOpacity");
+
     if (x.className === ""){
         document.getElementById("photoPysubot").classList.add("click");    
     }else{
@@ -214,7 +214,7 @@ function unshowaPysubot(){
     document.getElementById("titoloPysubot").style.display="none";
     document.getElementById("descrizionePysubot").style.display="none";
     document.getElementById("photoPysubot").classList.remove("click");
-    document.getElementById("imgPysubot").classList.remove("imgOpacity");
+
     if (x.className === ""){
         document.getElementById("photoPysubot").classList.remove("click");;    
     }else{
@@ -227,7 +227,7 @@ function showaMinecraft(){
     document.getElementById("titoloMinecraft").style.display="block";
     document.getElementById("descrizioneMinecraft").style.display="block";
     document.getElementById("photoMinecraft").classList.add("click");
-    document.getElementById("imgMinecraft").classList.add("imgOpacity");
+
     if (x.className === ""){
         document.getElementById("photoMinecraft").classList.add("click");    
     }else{
@@ -240,7 +240,7 @@ function unshowaMinecraft(){
     document.getElementById("titoloMinecraft").style.display="none";
     document.getElementById("descrizioneMinecraft").style.display="none";
     document.getElementById("photoMinecraft").classList.remove("click");
-    document.getElementById("imgMinecraft").classList.remove("imgOpacity");
+
     if (x.className === ""){
         document.getElementById("photoMinecraft").classList.remove("click");;    
     }else{
@@ -430,3 +430,18 @@ const appearOnScroll = new IntersectionObserver(function(entries, appearOnscroll
 feaders.forEach(fader => {
     appearOnScroll.observe(fader);
 })
+
+/*document.getElementById("photoANCL").onclick = function () {
+location.href = "ancl.html"}
+
+document.getElementById("photoRuffo").onclick = function () {
+location.href = "Ruffo.html"}
+
+document.getElementById("photoWebsite").onclick = function () {
+location.href = "website.html"}*/
+
+document.getElementById("photoPysubot").onclick = function () {
+location.href = "pysubot.html"}
+
+/*document.getElementById("photoMinecraft").onclick = function () {
+location.href = "minecraft.html"}*/
