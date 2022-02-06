@@ -168,7 +168,6 @@ img.myImg{
   height: auto;
   top: 20%;  
   border-radius: 50%;
-  
 }
 
 
@@ -581,10 +580,6 @@ filter: brightness(80%);
 box-shadow: 5px 5px 10px rgba(241, 214, 62, 0.274);
 }
 
-.imgOpacity{
- opacity: 0.4;
-}
-
 
 /* .photo img:hover{
 box-shadow: 5px 5px 5em rgba(241, 214, 62, 0.534);
@@ -600,11 +595,13 @@ display: block;
 box-shadow: 5px 5px 5em rgba(241, 214, 62, 0.534);
 transform: scale(1.08);
 display: block;
+cursor: pointer;
 }
 .clickLight{
 box-shadow: 5px 5px 5em rgb(89, 0, 255);
 transform: scale(1.08);
 display: block;
+cursor: pointer;
 }
 
 #titoloANCL{
@@ -1480,4 +1477,73 @@ button.sunOrMoon{
     font-size: 12px!important;
   }
 }
+}
+
+
+
+
+
+
+
+.grid-1 {
+  display: grid;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 80px auto 80px;
+  grid-gap: 20px;
+  
+  grid-template-areas: "header      header"
+                       "sidebar      main"
+                       "footer     footer";
+}
+
+/* items */
+
+.grid-1 div {
+  color: white;
+  padding: 20px;
+  }
+
+/* specific item styles */
+
+.item-1 {
+  /*background: #b03532;*/
+  grid-area: header;
+  text-align: center;
+  font-size: 50px;
+}
+.item-2 {
+  /*background: #33a8a5;*/
+  grid-area: main;
+  font-size: 25px;
+}
+.item-3 {
+  
+  grid-area: sidebar;
+}
+.item-3 img{
+  height: auto;
+  width: 100%;
+  border-radius: 3%;
+}
+.item-4 {
+  /*background: #6a478f;*/
+  grid-area: footer;
+  font-size: 25px;
+  text-align: center;
+}
+.item-5 {
+  /*background: #da6f2b;*/
+  grid-area: header;
+}
+.item-6 {
+  background: #3d8bb1;
+  grid-area: article;
+}
+.item-7 {
+  background: #e03f3f;
+  grid-area: footer;
 }
