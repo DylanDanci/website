@@ -179,6 +179,8 @@ div.aboutmeLeft{
   height: 100%;
 }
 
+
+
 div.aboutmeRight{
 position: relative;
 width: 60%;
@@ -234,6 +236,12 @@ mark.green {
   color:green;
   background: none;
   text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 255, 0), 0 0 5px rgb(2, 83, 2);
+}
+
+mark.blue {
+  color:rgb(0, 140, 255);
+  background: none;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(83, 172, 231), 0 0 5px rgb(7, 92, 126);
 }
 
 mark.white {
@@ -1546,4 +1554,59 @@ button.sunOrMoon{
 .item-7 {
   background: #e03f3f;
   grid-area: footer;
+}
+
+div.anclLeft{
+  top: 30px;
+  width: 50%;
+  float: left;
+  position: relative;
+  height: auto;
+}
+
+div.anclLeft img{
+  height: auto;
+  width: 80%;
+
+}
+
+div.anclRight{
+  width: 50%;
+  float: right;
+  position: relative;
+  height: auto;
+}
+
+.anclRight p{
+  color: whitesmoke;
+  font-size: x-large;
+}
+
+@media screen and (max-width: 830px) {
+  div.anclLeft{
+    width: 100%;
+    top: 0px;
+  }
+  div.anclRight{
+    width: 100%;
+  }
+}
+
+.whatIdid{
+  width: 50%;
+  float: left;
+  position: relative;
+  height: auto;
+}
+
+.whatIlldo{
+  width: 50%;
+  float: right;
+  position: relative;
+  height: auto;
+}
+
+mark.blue2 {
+  color:rgb(0, 140, 255);
+  background: none;
 }
