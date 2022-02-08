@@ -265,7 +265,6 @@ function theme(){
     var x = document.getElementById("body");
     var y = document.getElementById("aboutme");
     var z = document.getElementById("works");
-    var w = document.getElementById("contacts");
     var a = document.getElementById("aboutmePage");
     var b = document.getElementById("big");
     var c = document.getElementById("love");
@@ -304,6 +303,7 @@ function theme(){
     var mc = document.getElementById("photoMinecraft");
     var menu = document.getElementById("menu");
     var moon = document.getElementById("moon");
+    var w = document.getElementById("contacts");
     if (x.className === ""){
         x.className = "theme";
         y.classList.add("lightTheme");
@@ -363,6 +363,7 @@ function theme(){
         a.classList.remove("lightDivAboutMe");
         b.classList.remove("lightTheme");
         c.classList.remove("lightTheme");
+        c.classList.remove("borderLight");
         d.classList.remove("lightTheme");
         e.classList.remove("lightTheme");
         f.classList.remove("lightTheme");
@@ -406,6 +407,7 @@ function theme(){
         m.classList.remove("borderLight");
         n.classList.remove("borderLight"); 
         o.classList.remove("borderLight"); 
+        
     }
     
 }
@@ -431,17 +433,177 @@ feaders.forEach(fader => {
     appearOnScroll.observe(fader);
 })
 
-/*document.getElementById("photoANCL").onclick = function () {
-location.href = "ancl.html"}
+
 
 document.getElementById("photoRuffo").onclick = function () {
 location.href = "Ruffo.html"}
-
+/*
 document.getElementById("photoWebsite").onclick = function () {
 location.href = "website.html"}*/
 
 document.getElementById("photoPysubot").onclick = function () {
-location.href = "pysubot.html"}
+    location.href = "pysubot.html"}
+document.getElementById("photoANCL").onclick = function () {
+    location.href = "ancl.html"}
+document.getElementById("photoMinecraft").onclick = function () {
+location.href = "minecraft.html"}
 
-/*document.getElementById("photoMinecraft").onclick = function () {
-location.href = "minecraft.html"}*/
+
+
+
+function themeANCL(){
+    var x = document.getElementById("body");
+    var up = document.getElementById("up");
+    var y = document.getElementById("aboutme");
+    var git = document.getElementById("gitLight");
+    var ln = document.getElementById("lnLight");
+    var menu = document.getElementById("menu");
+    var moon = document.getElementById("moon");
+    var z = document.getElementById("works");
+    var a = document.getElementById("aboutmePage");
+    if (x.className === ""){
+        x.className = "theme";
+        y.classList.add("lightTheme");
+        z.classList.add("lightTheme");
+        a.classList.add("lightDivAboutMe");
+        git.classList.add("lightGit");
+        ln.classList.add("lightLinkedin");
+        up.classList.add("backToTopLight");
+        menu.classList.add("lightTheme");
+        moon.classList.add("dark");
+    }else{
+        x.classList.remove("theme");   
+        y.classList.remove("lightTheme");
+        z.classList.remove("lightTheme");   
+        a.classList.remove("lightDivAboutMe");     
+        git.classList.remove("lightGit");
+        ln.classList.remove("lightLinkedin");      
+        up.classList.remove("backToTopLight");   
+        menu.classList.remove("lightTheme");
+        moon.classList.remove("dark");
+       
+        }
+    }
+
+    function themePysuBot(){
+        var x = document.getElementById("body");
+        var up = document.getElementById("up");
+        var y = document.getElementById("aboutme");
+        var z = document.getElementById("works");
+        var a = document.getElementById("aboutmePage");
+        var w = document.getElementById("contacts");
+        var git = document.getElementById("gitLight");
+        var ln = document.getElementById("lnLight");
+        var menu = document.getElementById("menu");
+        var moon = document.getElementById("moon");
+        var b = document.getElementById("big");
+        if (x.className === ""){
+            x.className = "theme";
+            y.classList.add("lightTheme");
+            z.classList.add("lightTheme");
+            a.classList.add("lightDivAboutMe");
+            w.classList.add("lightTheme");
+            git.classList.add("lightGit");
+            ln.classList.add("lightLinkedin");
+            up.classList.add("backToTopLight");
+            menu.classList.add("lightTheme");
+            moon.classList.add("dark");
+            b.classList.add("lightTheme");
+            b.classList.add("borderLight");
+        }else{
+            x.classList.remove("theme");   
+            y.classList.remove("lightTheme");
+            z.classList.remove("lightTheme");   
+            a.classList.remove("lightDivAboutMe");
+            w.classList.remove("lightTheme");     
+            git.classList.remove("lightGit");
+            ln.classList.remove("lightLinkedin");      
+            up.classList.remove("backToTopLight");   
+            menu.classList.remove("lightTheme");
+            moon.classList.remove("dark");
+            b.classList.remove("lightTheme");
+            b.classList.remove("borderLight");
+            }
+        }
+
+        function themeRuffo(){
+            var x = document.getElementById("body");
+            var up = document.getElementById("up");
+            var y = document.getElementById("aboutme");
+            var git = document.getElementById("gitLight");
+            var ln = document.getElementById("lnLight");
+            var menu = document.getElementById("menu");
+            var moon = document.getElementById("moon");
+            var z = document.getElementById("works");
+            var a = document.getElementById("aboutmePage");
+            var b = document.getElementById("big");
+            if (x.className === ""){
+                x.className = "theme";
+                y.classList.add("lightTheme");
+                z.classList.add("lightTheme");
+                a.classList.add("lightDivAboutMe");
+                git.classList.add("lightGit");
+                ln.classList.add("lightLinkedin");
+                up.classList.add("backToTopLight");
+                menu.classList.add("lightTheme");
+                moon.classList.add("dark");
+                b.classList.add("lightTheme");
+                b.classList.add("borderLight");
+            }else{
+                x.classList.remove("theme");   
+                y.classList.remove("lightTheme");
+                z.classList.remove("lightTheme");   
+                a.classList.remove("lightDivAboutMe");     
+                git.classList.remove("lightGit");
+                ln.classList.remove("lightLinkedin");      
+                up.classList.remove("backToTopLight");   
+                menu.classList.remove("lightTheme");
+                moon.classList.remove("dark");
+                b.classList.remove("lightTheme");
+                b.classList.remove("borderLight");
+                }
+            }
+
+            function themeMinecraft(){
+                var x = document.getElementById("body");
+                var up = document.getElementById("up");
+                var y = document.getElementById("aboutme");
+                var git = document.getElementById("gitLight");
+                var ln = document.getElementById("lnLight");
+                var menu = document.getElementById("menu");
+                var moon = document.getElementById("moon");
+                var z = document.getElementById("works");
+                var a = document.getElementById("aboutmePage");
+                var w = document.getElementById("contacts");
+                var o = document.getElementById("contactsWrite1");
+                var b = document.getElementById("big");
+                if (x.className === ""){
+                    x.className = "theme";
+                    y.classList.add("lightTheme");
+                    z.classList.add("lightTheme");
+                    a.classList.add("lightDivAboutMe");
+                    git.classList.add("lightGit");
+                    ln.classList.add("lightLinkedin");
+                    up.classList.add("backToTopLight");
+                    menu.classList.add("lightTheme");
+                    moon.classList.add("dark");
+                    w.classList.add("lightTheme");
+                    o.classList.add("lightTheme");
+                    b.classList.add("lightTheme");
+                    b.classList.add("borderLight");
+                }else{
+                    x.classList.remove("theme");   
+                    y.classList.remove("lightTheme");
+                    z.classList.remove("lightTheme");   
+                    a.classList.remove("lightDivAboutMe");     
+                    git.classList.remove("lightGit");
+                    ln.classList.remove("lightLinkedin");      
+                    up.classList.remove("backToTopLight");   
+                    menu.classList.remove("lightTheme");
+                    moon.classList.remove("dark");
+                    w.classList.remove("lightTheme");
+                    o.classList.remove("lightTheme");
+                    b.classList.remove("lightTheme");
+                    b.classList.remove("borderLight");
+                    }
+                }
