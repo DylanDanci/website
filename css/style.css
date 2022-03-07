@@ -1610,3 +1610,29 @@ mark.blue2 {
   color:rgb(0, 140, 255);
   background: none;
 }
+
+mark.lightblue {
+  color:rgb(0, 255, 234);
+  background: none;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 255, 234), 0 0 5px rgb(129, 221, 213);
+}
+
+mark.lightblueTech {
+  color:rgb(0, 255, 234);
+  background: none;
+}
+
+mark.lime {
+  color:rgb(0, 255, 64);
+  background: none;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 255, 64), 0 0 5px rgb(120, 252, 153);
+}
+
+mark.limeTech {
+  color:rgb(0, 255, 64);
+  background: none;
+}
+
+.anclLeft img{
+  border-radius: 2%;
+}
