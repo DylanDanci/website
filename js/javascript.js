@@ -436,10 +436,10 @@ feaders.forEach(fader => {
 
 
 document.getElementById("photoRuffo").onclick = function () {
-location.href = "ruffo.html"}
-/*
+location.href = "Ruffo.html"}
+
 document.getElementById("photoWebsite").onclick = function () {
-location.href = "website.html"}*/
+location.href = "website.html"}
 
 document.getElementById("photoPysubot").onclick = function () {
     location.href = "pysubot.html"}
@@ -491,7 +491,6 @@ function themeANCL(){
         var y = document.getElementById("aboutme");
         var z = document.getElementById("works");
         var a = document.getElementById("aboutmePage");
-        var w = document.getElementById("contacts");
         var git = document.getElementById("gitLight");
         var ln = document.getElementById("lnLight");
         var menu = document.getElementById("menu");
@@ -502,7 +501,6 @@ function themeANCL(){
             y.classList.add("lightTheme");
             z.classList.add("lightTheme");
             a.classList.add("lightDivAboutMe");
-            w.classList.add("lightTheme");
             git.classList.add("lightGit");
             ln.classList.add("lightLinkedin");
             up.classList.add("backToTopLight");
@@ -514,8 +512,7 @@ function themeANCL(){
             x.classList.remove("theme");   
             y.classList.remove("lightTheme");
             z.classList.remove("lightTheme");   
-            a.classList.remove("lightDivAboutMe");
-            w.classList.remove("lightTheme");     
+            a.classList.remove("lightDivAboutMe");    
             git.classList.remove("lightGit");
             ln.classList.remove("lightLinkedin");      
             up.classList.remove("backToTopLight");   
