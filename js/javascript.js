@@ -436,7 +436,7 @@ feaders.forEach(fader => {
 
 
 document.getElementById("photoRuffo").onclick = function () {
-location.href = "Ruffo.html"}
+location.href = "ruffo.html"}
 
 document.getElementById("photoWebsite").onclick = function () {
 location.href = "website.html"}
