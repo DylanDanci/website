@@ -436,17 +436,17 @@ feaders.forEach(fader => {
 
 
 document.getElementById("photoRuffo").onclick = function () {
-location.href = "ruffo.html"}
+location.href = "pages/ruffo.html"}
 
 document.getElementById("photoWebsite").onclick = function () {
-location.href = "website.html"}
+location.href = "pages/website.html"}
 
 document.getElementById("photoPysubot").onclick = function () {
-    location.href = "pysubot.html"}
+    location.href = "pages/pysubot.html"}
 document.getElementById("photoANCL").onclick = function () {
-    location.href = "ancl.html"}
+    location.href = "pages/ancl.html"}
 document.getElementById("photoMinecraft").onclick = function () {
-location.href = "minecraft.html"}
+location.href = "pages/minecraft.html"}
 
 
 
